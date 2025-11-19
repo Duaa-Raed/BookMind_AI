@@ -6,7 +6,8 @@ BookMind AI
 *Advanced Book Search and Recommendation System*
 
 
- Overview
+Overview
+---
 
 A complete suite of intelligent tools for book search and recommendation, built across multiple versions that gradually introduce more advanced features:
 
