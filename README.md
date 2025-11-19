@@ -18,7 +18,7 @@ A complete suite of intelligent tools for book search and recommendation, built 
 
 ### Version 1: book-recommender-nlp-v1
 
-**Objective**
+## Objective
 
 *A smart book search and recommendation system built using NLP and semantic retrieval techniques.*
 
