@@ -3,7 +3,7 @@ BookMind AI
 ---
 ----
 
-** Advanced Book Search and Recommendation System *
+**Advanced Book Search and Recommendation System**
 
  Overview
 
