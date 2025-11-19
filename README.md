@@ -73,7 +73,7 @@ Comprehensive visualizations including:
 
 ### How Version 1 Works (Technical Pipeline)
 
-Below is a concise overview of how book-recommender-nlp-v1 works internally:
+Below is a concise overview of how *book-recommender-nlp-v1* works internally:
 
 **Data Processing**
 ```python
@@ -84,3 +84,80 @@ df.dropna(subset=["title", "description"], inplace=True)
 df = df[df["price"] > 0]  # remove invalid prices
 ```
 
+**Embedding Generation**
+```python
+from sentence_transformers import SentenceTransformer
+
+model = SentenceTransformer("all-MiniLM-L6-v2")
+embeddings = model.encode(df["description"].tolist(), show_progress_bar=True)
+```
+**Vector Index with FAISS**
+```python
+import faiss
+import numpy as np
+
+dimension = embeddings.shape[1]
+index = faiss.IndexFlatL2(dimension)
+index.add(np.array(embeddings).astype("float32"))
+```
+**Query Understanding + Semantic Search**
+```python
+def search_books(query, k=3):
+    query_vec = model.encode([query])
+    distances, ids = index.search(query_vec, k)
+    return df.iloc[ids[0]]
+```
+**Gemini Refinement** 
+```python
+import google.generativeai as genai
+
+def ask_gemini(query, context):
+    prompt = f"User asked: {query}\nRelevant books:\n{context}\nProvide a helpful answer."
+    return genai.GenerativeModel("gemini-pro").generate_content(prompt).text
+```
+**Final Response**
+
+- Retrieve top 3 semantic matches
+
+- Feed them as context to Gemini
+
+- Generate final natural answer
+
+### Technologies Used (Clean Version)
+🔹 Data & Processing
+
+Pandas, NumPy
+
+🔹 NLP & Embeddings
+
+Sentence Transformers
+
+spaCy (light preprocessing)
+
+🔹 Vector Search
+
+FAISS (v1)
+
+Redis / FAISS Hybrid (v2)
+
+🔹 AI / LLM Integration
+
+Google Gemini API
+
+LangChain (v2)
+
+🔹 Backend
+
+Python CLI (v1)
+
+FastAPI (v2)
+
+🔹 Storage
+
+CSV (v1)
+
+PostgreSQL (v2)
+
+🔹 Visualizations
+
+Matplotlib, Seaborn
