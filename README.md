@@ -123,41 +123,13 @@ def ask_gemini(query, context):
 
 - Generate final natural answer
 
-### Technologies Used (Clean Version)
-🔹 Data & Processing
+# Future Upgrade: AI Agent Version (Under Development)
 
-Pandas, NumPy
+I am currently working on upgrading this NLP project into a full AI Agent.
+The new version will include:
+- Retrieval-Augmented Generation (RAG)
+- Gemini-based reasoning
+- Custom Python tools
+- Multi-step agent workflow
+- Support for more book queries
 
-🔹 NLP & Embeddings
-
-Sentence Transformers
-
-spaCy (light preprocessing)
-
-🔹 Vector Search
-
-FAISS (v1)
-
-Redis / FAISS Hybrid (v2)
-
-🔹 AI / LLM Integration
-
-Google Gemini API
-
-LangChain (v2)
-
-🔹 Backend
-
-Python CLI (v1)
-
-FastAPI (v2)
-
-🔹 Storage
-
-CSV (v1)
-
-PostgreSQL (v2)
-
-🔹 Visualizations
-
-Matplotlib, Seaborn
