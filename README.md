@@ -16,13 +16,13 @@ A complete suite of intelligent tools for book search and recommendation, built 
 | **v2** | `book-agent-v2` |  In Development | Advanced intelligent agent with multiple capabilities |
 
 
-### Version 1: book-recommender-nlp-v1
+# Version 1: book-recommender-nlp-v1
 
-# Objective
+### Objective
 
 *A smart book search and recommendation system built using NLP and semantic retrieval techniques.*
 
-**Features**
+### Features
 
 - Semantic Search
 
@@ -48,7 +48,7 @@ Automated data preprocessing and anomaly removal.
 
 Simple conversational interface for user queries.
 
-**Core Capabilities**
+### Core Capabilities
 
 *Exploratory Data Analysis (EDA)*
 
