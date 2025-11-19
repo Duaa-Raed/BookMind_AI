@@ -1,5 +1,7 @@
-# BookMind AI
+----
+BookMind AI
 ---
+----
 
 Advanced Book Search and Recommendation System
 
