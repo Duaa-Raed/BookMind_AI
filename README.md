@@ -69,3 +69,10 @@ Comprehensive visualizations including:
 - Remove missing/zero values
 
 - Detect & remove outliers
+
+
+### How Version 1 Works (Technical Pipeline)
+
+Below is a concise overview of how book-recommender-nlp-v1 works internally:
+
+**Data Processing**
