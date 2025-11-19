@@ -47,3 +47,25 @@ Automated data preprocessing and anomaly removal.
 - Interactive Query Mode
 
 Simple conversational interface for user queries.
+
+**Core Capabilities**
+
+*Exploratory Data Analysis (EDA)*
+
+Comprehensive visualizations including:
+
+- Most prolific authors
+
+- Most common categories
+
+- Price and page distributions
+
+- Correlation between price & page count
+
+*Data Cleaning*
+
+- Automated data processing:
+
+- Remove missing/zero values
+
+- Detect & remove outliers
