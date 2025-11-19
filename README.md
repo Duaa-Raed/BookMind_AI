@@ -15,7 +15,8 @@ A complete suite of intelligent tools for book search and recommendation, built 
 | **v1** | `book-recommender-nlp-v1` |  Stable | Basic recommendation system with semantic search |
 | **v2** | `book-agent-v2` |  In Development | Advanced intelligent agent with multiple capabilities |
 
-Version 1: book-recommender-nlp-v1
+
+### Version 1: book-recommender-nlp-v1
 
 🎯 Objective
 
