@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.streamlit/
+.env
+faiss_index.bin
+embeddings.npy
