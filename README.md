@@ -57,13 +57,10 @@ Note: To keep the repository lightweight, the primary dataset is not included. B
 
 | 1. API Activation | 2. Intelligent Search |
 | :---: | :---: |
-| ![API Activation ](assets/API_Activation.png) | ![Search Results](assets/Intelligent_Search_Visual_Identity_&_Theme_1.png) |  ![Search Results](assets/Intelligent_Search_Visual_Identity_&_Theme_2.png) |
-| *Secure Gateway for API Key* | *Context-Aware Recommendations* |
+| ![API Activation](assets/API_Activation.png) | ![Search Results 1](assets/Intelligent_Search_Visual_Identity_&_Theme_1.png) |
+| *Secure Gateway for API Key* | *Context-Aware Recommendations (Part 1)* |
 
-| 3. Visual Identity & Theme |
-| :---: |
-| ![Main UI](assets/Intelligent_Search.png) |
-| *The Glowing Signature Edition UI* |
-
----
-
+| 3. Visual Identity & Theme | 4. Search Continuity |
+| :---: | :---: |
+| ![Main UI](assets/Intelligent_Search.png) | ![Search Results 2](assets/Intelligent_Search_Visual_Identity_&_Theme_2.png) |
+| *The Glowing Signature Edition UI* | *Context-Aware Recommendations (Part 2)* |
