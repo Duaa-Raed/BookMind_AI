@@ -32,6 +32,25 @@ Traditional search relies on keyword matching. **BookMind** understands intent. 
 
 ---
 
+---
+
+##  Data Handling & Flexibility
+To ensure scalability and handle large-scale datasets efficiently, **BookMind** is designed with a "Plug-and-Play" data architecture:
+
+- **Large Dataset Support:** The system is optimized to process extensive CSV files (like the Global Library Dataset) without performance lags.
+- **Custom User Data:** Users can easily integrate their own library datasets. By simply placing their CSV file in the project directory and updating the `DATA_FILE` path in `config.py`, the engine will automatically:
+    1. Clean the new data.
+    2. Re-generate the Vector Embeddings.
+    3. Update the FAISS index for immediate search.
+- **Efficient Indexing:** To avoid redundant processing, the system saves the mathematical "Index" locally (`faiss_index.bin`). This allows the library to load in seconds after the first initialization.
+
+
+*Data Customization Note*
+Note: To keep the repository lightweight, the primary dataset is not included. BookMind is designed to be data-agnostic; you can bring your own literary dataset! Simply place your CSV file in the root directory as Global_Library_Dataset.csv. On the first run, the system will dynamically analyze your data, generate new multilingual embeddings, and build a custom FAISS search index tailored to your specific collection.
+---
+
+
+
 ##  Project Showcases
 *(Place your high-quality screenshots here to impress the HR)*
 
