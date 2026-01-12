@@ -1,9 +1,3 @@
----
-BookMind AI
----
-----
-
-
 
 #  BookMind AI: Advanced Semantic Library Assistant
 
