@@ -57,7 +57,7 @@ Note: To keep the repository lightweight, the primary dataset is not included. B
 
 ### 1️⃣ The Activation Gateway
 Before entering the library, the system ensures security and privacy through an API activation portal.
-![API Activation](assets/API_Activation.png)
+![API Activation]([assets/API_Activation.png](https://github.com/Duaa-Raed/BookMind_AI/blob/main/assets/API%20Activation.png?raw=true))
 *Secure Gateway for user-provided Gemini API keys.*
 
 ---
