@@ -53,30 +53,34 @@ Note: To keep the repository lightweight, the primary dataset is not included. B
 ---
 
 
-## 📸 Interface Preview
+##  Interface Preview
 
-### 1️⃣ The Activation Gateway
+## The Activation Gateway
 Before entering the library, the system ensures security and privacy through an API activation portal.
 ![API Activation]([assets/API_Activation.png](https://github.com/Duaa-Raed/BookMind_AI/blob/main/assets/API%20Activation.png?raw=true))
 *Secure Gateway for user-provided Gemini API keys.*
 
 ---
 
-### 2️⃣ Advanced Semantic Search
+## Advanced Semantic Search
 The core search experience where AI understands the user's intent to find the perfect book.
+
+
 ![Search Results](assets/Intelligent_Search_Visual_Identity_&_Theme_1.png)
+
+
 *AI-driven recommendations based on context and meaning.*
 
 ---
 
-### 3️⃣ Visual Identity & Themes
+## Visual Identity & Themes
 A showcase of the premium Glowing UI design, providing a modern and immersive library atmosphere.
 ![Main UI](assets/Intelligent_Search.png)
 *The custom-crafted Neon Signature Interface.*
 
 ---
 
-### 4️⃣ Deep Insight & Reasoning
+## Deep Insight & Reasoning
 The system doesn't just list books; it explains "why" they were selected using Gemini AI.
 ![Search Continuity](assets/Intelligent_Search_Visual_Identity_&_Theme_2.png)
 *Detailed AI reasoning for each recommendation.*
