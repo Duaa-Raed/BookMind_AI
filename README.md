@@ -53,12 +53,17 @@ Note: To keep the repository lightweight, the primary dataset is not included. B
 ---
 
 
+## 📸 Interface Preview
 
-##  Project Showcases
-*(Place your high-quality screenshots here to impress the HR)*
+| 1. API Activation | 2. Intelligent Search |
+| :---: | :---: |
+| ![API Activation ](assets/API_Activation.png) | ![Search Results](assets/Intelligent_Search_Visual_Identity_&_Theme_1.png) |  ![Search Results](assets/Intelligent_Search_Visual_Identity_&_Theme_2.png) |
+| *Secure Gateway for API Key* | *Context-Aware Recommendations* |
 
-1. **The Portal:** The secure API activation gateway.
-2. **The Discovery:** The glowing chat interface and book result cards.
+| 3. Visual Identity & Theme |
+| :---: |
+| ![Main UI](assets/Intelligent_Search.png) |
+| *The Glowing Signature Edition UI* |
 
 ---
 
