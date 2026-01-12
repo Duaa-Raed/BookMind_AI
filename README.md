@@ -64,17 +64,6 @@ Before entering the library, the system ensures security and privacy through an 
 
 ---
 
-## Advanced Semantic Search
-The core search experience where AI understands the user's intent to find the perfect book.
-
-
-![Search Results](assets/Intelligent_Search_Visual_Identity_&_Theme_1.png)
-
-
-*AI-driven recommendations based on context and meaning.*
-
----
-
 ## Visual Identity & Themes
 A showcase of the premium Glowing UI design, providing a modern and immersive library atmosphere.
 ![Main UI](assets/Intelligent_Search.png)
@@ -82,7 +71,19 @@ A showcase of the premium Glowing UI design, providing a modern and immersive li
 
 ---
 
+## Advanced Semantic Search
+The core search experience where AI understands the user's intent to find the perfect book.
+
+
+![Search Results](assets/Intelligent_Search_Visual_Identity.png)
+
+
+*AI-driven recommendations based on context and meaning.*
+
+
+---
+
 ## Deep Insight & Reasoning
 The system doesn't just list books; it explains "why" they were selected using Gemini AI.
-![Search Continuity](assets/Intelligent_Search_Visual_Identity_&_Theme_2.png)
+![Search Continuity](assets/Intelligent_Search_Visual_Identity2.png)
 *Detailed AI reasoning for each recommendation.*
