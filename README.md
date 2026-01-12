@@ -46,7 +46,10 @@ To ensure scalability and handle large-scale datasets efficiently, **BookMind** 
 
 
 *Data Customization Note*
+
 Note: To keep the repository lightweight, the primary dataset is not included. BookMind is designed to be data-agnostic; you can bring your own literary dataset! Simply place your CSV file in the root directory as Global_Library_Dataset.csv. On the first run, the system will dynamically analyze your data, generate new multilingual embeddings, and build a custom FAISS search index tailored to your specific collection.
+
+
 ---
 
 
