@@ -55,12 +55,28 @@ Note: To keep the repository lightweight, the primary dataset is not included. B
 
 ## 📸 Interface Preview
 
-| 1. API Activation | 2. Intelligent Search |
-| :---: | :---: |
-| ![API Activation](assets/API_Activation.png) | ![Search Results 1](assets/Intelligent_Search_Visual_Identity_&_Theme_1.png) |
-| *Secure Gateway for API Key* | *Context-Aware Recommendations (Part 1)* |
+### 1️⃣ The Activation Gateway
+Before entering the library, the system ensures security and privacy through an API activation portal.
+![API Activation](assets/API_Activation.png)
+*Secure Gateway for user-provided Gemini API keys.*
 
-| 3. Visual Identity & Theme | 4. Search Continuity |
-| :---: | :---: |
-| ![Main UI](assets/Intelligent_Search.png) | ![Search Results 2](assets/Intelligent_Search_Visual_Identity_&_Theme_2.png) |
-| *The Glowing Signature Edition UI* | *Context-Aware Recommendations (Part 2)* |
+---
+
+### 2️⃣ Advanced Semantic Search
+The core search experience where AI understands the user's intent to find the perfect book.
+![Search Results](assets/Intelligent_Search_Visual_Identity_&_Theme_1.png)
+*AI-driven recommendations based on context and meaning.*
+
+---
+
+### 3️⃣ Visual Identity & Themes
+A showcase of the premium Glowing UI design, providing a modern and immersive library atmosphere.
+![Main UI](assets/Intelligent_Search.png)
+*The custom-crafted Neon Signature Interface.*
+
+---
+
+### 4️⃣ Deep Insight & Reasoning
+The system doesn't just list books; it explains "why" they were selected using Gemini AI.
+![Search Continuity](assets/Intelligent_Search_Visual_Identity_&_Theme_2.png)
+*Detailed AI reasoning for each recommendation.*
